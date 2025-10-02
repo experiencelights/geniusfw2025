@@ -22,8 +22,8 @@ WHAT IS READY FOR TESTING:
 9. Firmware update/upload via web interface
 
 Builds
-| Date | Download | Notes |
-| -- | -- | -- |
-| Oct 2 | [Genius v2.0.2-33](https://github.com/experiencelights/geniusfw2025/raw/refs/heads/main/Genius_PRO_Controller_16_ota_firmware_2.0.2-33.bin) | Big changes related to performance and ensuring solid comm. between processors, fixed no hotspot on Genius 16 (non pro) |
-| Sep 30 | [Genius v2.0.2-14](https://github.com/experiencelights/geniusfw2025/raw/refs/heads/main/Genius_PRO_Controller_16_ota_firmware_2.0.2-14.bin) | Added network tracing. FPP Ping Packet should be working now. Fixed issue with multiple virtual strings buffer alignment. Fixed test modes that were swapped. Revamped test page. |
-| Sep 28 | [Genius v2.0.2-1](https://github.com/experiencelights/geniusfw2025/raw/refs/heads/main/Genius_PRO_Controller_16_ota_firmware_2.0.2-1.bin) | Initial build |
+| Date | Genius | VIVID 8 | Notes |
+| -- | -- | -- | -- |
+| Oct 2 | [v2.0.2-33](https://github.com/experiencelights/geniusfw2025/raw/refs/heads/main/Genius_PRO_Controller_16_ota_firmware_2.0.2-33.bin) | [v2.0.2-33](https://github.com/experiencelights/geniusfw2025/raw/refs/heads/main/VIVID_8_ota_firmware_2.0.2-33.bin) | Big changes related to performance and ensuring solid comm. between processors, fixed no hotspot on Genius 16 (non pro) |
+| Sep 30 | [v2.0.2-14](https://github.com/experiencelights/geniusfw2025/raw/refs/heads/main/Genius_PRO_Controller_16_ota_firmware_2.0.2-14.bin) |  | Added network tracing. FPP Ping Packet should be working now. Fixed issue with multiple virtual strings buffer alignment. Fixed test modes that were swapped. Revamped test page. |
+| Sep 28 | [v2.0.2-1](https://github.com/experiencelights/geniusfw2025/raw/refs/heads/main/Genius_PRO_Controller_16_ota_firmware_2.0.2-1.bin) |  | Initial build |

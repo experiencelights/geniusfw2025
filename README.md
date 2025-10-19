@@ -5,7 +5,7 @@
 Submit all bugs and feature requests here, and only here (not on Facebook, and not through email).
 
 NOT YET READY FOR TESTING:
-1. SD CARD
+1. SD CARD - Sync Packets
 2. LONG RANGE RECEIVER DAISY CHAINING (DUMB MODE ONLY)
 3. PIXEL COUNTING
 
@@ -20,10 +20,12 @@ WHAT IS READY FOR TESTING:
 7. Network configuration
 8. Hard reset (via reset button upon reboot while pressing for 10 seconds)
 9. Firmware update/upload via web interface
+10. SD Card Standalone - Manual playback only (playlists not yet supported)
 
 Builds
 | Date | Genius | VIVID 8 | Notes |
 | -- | -- | -- | -- |
+| Oct 19 | [v2.0.3-0](https://github.com/experiencelights/geniusfw2025/raw/refs/heads/main/Genius_PRO_Controller_16_ota_firmware_2.0.3-0.bin) | [v2.0.3-0](https://github.com/experiencelights/geniusfw2025/raw/refs/heads/main/VIVID_8_ota_firmware_2.0.3-0.bin) | Added support for playing from SD card in standalone manual mode only, ensure WiFi client has different default IP than wired eth, added error messaging on network page for invalid ips and netmask. |
 | Oct 15 | [v2.0.2-66](https://github.com/experiencelights/geniusfw2025/raw/refs/heads/main/Genius_PRO_Controller_16_ota_firmware_2.0.2-66.bin) | [v2.0.2-66](https://github.com/experiencelights/geniusfw2025/raw/refs/heads/main/VIVID_8_ota_firmware_2.0.2-66.bin) | Updated secondary flashing process to output more data so it shows in the logs. Create end point that mimicks V1 end points, so the update from V1->V2 should behave correctly. |
 | Oct 15 | [v2.0.2-63](https://github.com/experiencelights/geniusfw2025/raw/refs/heads/main/Genius_PRO_Controller_16_ota_firmware_2.0.2-63.bin) | [v2.0.2-63](https://github.com/experiencelights/geniusfw2025/raw/refs/heads/main/VIVID_8_ota_firmware_2.0.2-63.bin) | Added enhancements to the reboot and update flow. Secondary processor communication failures are more specific as to the problem. Add buttons for forcing update secondary,and enabling USB programming mode. |
 | Oct 15 |  | [v2.0.2-59](https://github.com/experiencelights/geniusfw2025/raw/refs/heads/main/VIVID_8_ota_firmware_2.0.2-59.bin) | Fix for VIVID only. Fixes power outputs not being activated properly. |

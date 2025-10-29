@@ -5,9 +5,8 @@
 Submit all bugs and feature requests here, and only here (not on Facebook, and not through email).
 
 NOT YET READY FOR TESTING:
-1. SD CARD - Sync Packets
-2. LONG RANGE RECEIVER DAISY CHAINING (DUMB MODE ONLY)
-3. PIXEL COUNTING
+1. LONG RANGE RECEIVER DAISY CHAINING (DUMB MODE ONLY)
+2. PIXEL COUNTING
 
 WHAT IS READY FOR TESTING:
 
@@ -20,11 +19,12 @@ WHAT IS READY FOR TESTING:
 7. Network configuration
 8. Hard reset (via reset button upon reboot while pressing for 10 seconds)
 9. Firmware update/upload via web interface
-10. SD Card Standalone - Manual playback only (playlists not yet supported)
+10. SD Card Standalone & sync packets (playlists not yet supported)
 
 Builds
 | Date | Genius | VIVID 8 | Notes |
 | -- | -- | -- | -- |
+| Oct 29 | [v2.0.5-15](https://github.com/experiencelights/geniusfw2025/raw/refs/heads/main/Genius_Universal_ota_firmware_2.0.5-15.bin) | [v2.0.5-15](https://github.com/experiencelights/geniusfw2025/raw/refs/heads/main/VIVID_8_ota_firmware_2.0.5-15.bin) | SD Card multisync is now working via unicast, broadcast or multicast. |
 | Oct 27 | [v2.0.5-6](https://github.com/experiencelights/geniusfw2025/raw/refs/heads/main/Genius_Universal_ota_firmware_2.0.5-6.bin) | [v2.0.5-6](https://github.com/experiencelights/geniusfw2025/raw/refs/heads/main/VIVID_8_ota_firmware_2.0.5-6.bin) | Lots of changes to the TCP stack to support uploading files from xLights and the web UI to an SD card.  Lots of improvements to time keeping and NTP. |
 | Oct 21 | [v2.0.4-1](https://github.com/experiencelights/geniusfw2025/raw/refs/heads/main/Genius_Universal_ota_firmware_2.0.4-1.bin) | [v2.0.4-1](https://github.com/experiencelights/geniusfw2025/raw/refs/heads/main/VIVID_8_ota_firmware_2.0.4-1.bin) | Added more advanced network viewing and control options, added ctrl-click magic wand to select range, SD card playback improvements, general CSS fixes, now has true Universal support and tries to auto-detect device, or prompt if it can't determine. |
 | Oct 19 |  v2.0.3-0 | v2.0.3-0 | Added support for playing from SD card in standalone manual mode only, ensure WiFi client has different default IP than wired eth, added error messaging on network page for invalid ips and netmask. |

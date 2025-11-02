@@ -6,7 +6,8 @@ Submit all bugs and feature requests here, and only here (not on Facebook, and n
 
 NOT YET READY FOR TESTING:
 1. LONG RANGE RECEIVER DAISY CHAINING (DUMB MODE ONLY)
-2. PIXEL COUNTING
+2. PIXEL COUNTING/POWER CONTROL
+3. DMX
 
 WHAT IS READY FOR TESTING:
 

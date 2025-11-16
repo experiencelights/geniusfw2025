@@ -5,9 +5,7 @@
 Submit all bugs and feature requests here, and only here (not on Facebook, and not through email).
 
 NOT YET READY FOR TESTING:
-1. LONG RANGE RECEIVER DAISY CHAINING (DUMB MODE ONLY)
-2. PIXEL COUNTING/POWER CONTROL
-3. DMX
+1. PIXEL COUNTING
 
 WHAT IS READY FOR TESTING:
 
@@ -21,10 +19,15 @@ WHAT IS READY FOR TESTING:
 8. Hard reset (via reset button upon reboot while pressing for 10 seconds)
 9. Firmware update/upload via web interface
 10. SD Card Standalone & sync packets (playlists not yet supported)
+11. DMX
+12. LONG RANGE RECEIVER DAISY CHAINING
+13. CURRENT MONITORING
+14. ON/OFF power control (power banks and eFuses)
 
 Builds
 | Date | Genius | VIVID 8 | Notes |
 | -- | -- | -- | -- |
+| Nov 16 | [v2.0.7-2](https://github.com/experiencelights/geniusfw2025/raw/refs/heads/main/Genius_Universal_ota_firmware_2.0.7-2.bin) | [v2.0.7-2](https://github.com/experiencelights/geniusfw2025/raw/refs/heads/main/VIVID_8_ota_firmware_2.0.7-2.bin) | DMX added. Long range receiver daisy chaining. Current monitoring. Power control on/off. Test mode remember. Test mode speed.  |
 | Oct 29 | [v2.0.5-15](https://github.com/experiencelights/geniusfw2025/raw/refs/heads/main/Genius_Universal_ota_firmware_2.0.5-15.bin) | [v2.0.5-15](https://github.com/experiencelights/geniusfw2025/raw/refs/heads/main/VIVID_8_ota_firmware_2.0.5-15.bin) | SD Card multisync is now working via unicast, broadcast or multicast. |
 | Oct 27 | [v2.0.5-6](https://github.com/experiencelights/geniusfw2025/raw/refs/heads/main/Genius_Universal_ota_firmware_2.0.5-6.bin) | [v2.0.5-6](https://github.com/experiencelights/geniusfw2025/raw/refs/heads/main/VIVID_8_ota_firmware_2.0.5-6.bin) | Lots of changes to the TCP stack to support uploading files from xLights and the web UI to an SD card.  Lots of improvements to time keeping and NTP. |
 | Oct 21 | [v2.0.4-1](https://github.com/experiencelights/geniusfw2025/raw/refs/heads/main/Genius_Universal_ota_firmware_2.0.4-1.bin) | [v2.0.4-1](https://github.com/experiencelights/geniusfw2025/raw/refs/heads/main/VIVID_8_ota_firmware_2.0.4-1.bin) | Added more advanced network viewing and control options, added ctrl-click magic wand to select range, SD card playback improvements, general CSS fixes, now has true Universal support and tries to auto-detect device, or prompt if it can't determine. |
